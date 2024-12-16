@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navtxt{
+    color: chartreuse !important;
+}
+.nav-item a:hover{
+    color: black !important;  
+    /* important is added to forcefully change the text color */
+    background-color: aqua;
+}
+body{
+    background-image: url('https://i.pinimg.com/736x/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-content{
+    margin-top: 40px;
+    background-color: rgba(240, 255, 255, 0.188);
+    border: 1px solid rgba(240, 255, 255, 0.351);
+    border-radius: 10px;
+}
